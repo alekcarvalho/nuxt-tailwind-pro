@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s | Alek Carvalho',
+    titleTemplate: '%s | Nuxt Tailwind Pro',
     htmlAttrs: {
       lang: 'en',
     },
@@ -50,6 +50,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    publicPath: '/assets/',
     postcss: {
       plugins: {
         'postcss-easy-import': { prefix: '_', extensions: ['.css', '.scss'] },
